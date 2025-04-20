@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "name": "Emmanuel",
+      "skills": ["React", "Django", "Node.js"],
+      "github": "https://github.com/Emmanuel-NS",
+      "linkedin": "https://linkedin.com/in/Emmanuel",
+      "projects": [
+        {
+          "title": "URL Scanner Tool",
+          "description": "Scans URLs for threats via public API.",
+          "link": "https://www.emm3.tech"
+        },
+        {
+            "title": "Movie App",
+            "description": "front end for online movie streaming website",
+            "link": "https://www.emm3.tech"
+          }
+        
+      ]
+    }
+    
+  ]
+  
