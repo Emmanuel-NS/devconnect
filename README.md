@@ -107,6 +107,6 @@ Add profile authentication and user dashboard.
 This project was built with the intention to experiment, learn, and showcase front-end craftsmanship. Special thanks to the open-source community for React and Tailwind CSS.
 
 👨‍💻 Author
-[Your Name] – Frontend Developer
+Emmanuel NSABAGASANI – Frontend Developer
 LinkedIn | GitHub
 

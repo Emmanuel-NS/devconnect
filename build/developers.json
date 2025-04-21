@@ -1,0 +1,15 @@
+[
+    {
+      "id": 1,
+      "name": "Emmanuel NSABAGASANI",
+      "skills": ["React", "JavaScript", "CSS"],
+      "github": "https://github.com/Emmanuel-NS"
+    },
+    {
+      "id": 2,
+      "name": "John Smith",
+      "skills": ["Node.js", "Express", "MongoDB"],
+      "github": "https://github.com/johnsmith"
+    }
+  ]
+  

@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Getting Started with React",
+    "date": "2025-04-19",
+    "content": "<p>React is a JavaScript library for building user interfaces. It allows developers to build reusable components and manage the view layer efficiently. To get started, you'll need Node.js installed, then use <code>npx create-react-app my-app</code> to bootstrap your project.</p>"
+  },
+  {
+    "id": 2,
+    "title": "Deploying to GitHub Pages",
+    "date": "2025-04-20",
+    "content": "<p>Deploying your React app to GitHub Pages is simple. Install the <code>gh-pages</code> package, configure your <code>package.json</code> with a homepage URL, and use <code>npm run deploy</code>.</p>"
+  },
+  {
+    "id": 3,
+    "title": "Understanding JSX",
+    "date": "2025-04-21",
+    "content": "<p>JSX is a syntax extension for JavaScript that looks similar to HTML. It allows you to write elements and components more intuitively. JSX gets compiled to <code>React.createElement()</code> calls under the hood.</p>"
+  },
+  {
+    "id": 4,
+    "title": "React Components: Functional vs Class",
+    "date": "2025-04-22",
+    "content": "<p>React components can be defined as functions or classes. Functional components are simpler and preferred in modern React, especially with the introduction of hooks like <code>useState</code> and <code>useEffect</code>.</p>"
+  },
+  {
+    "id": 5,
+    "title": "Using React Hooks Effectively",
+    "date": "2025-04-23",
+    "content": "<p>Hooks like <code>useState</code>, <code>useEffect</code>, and <code>useContext</code> allow you to use state and other React features without writing a class. Learn when to use each and how to manage dependencies.</p>"
+  },
+  {
+    "id": 6,
+    "title": "Managing State with useReducer",
+    "date": "2025-04-24",
+    "content": "<p><code>useReducer</code> is great for managing complex state logic. It provides a way to dispatch actions to update state in a controlled and predictable manner, similar to Redux but without external libraries.</p>"
+  },
+  {
+    "id": 7,
+    "title": "Building Forms in React",
+    "date": "2025-04-25",
+    "content": "<p>Forms in React are controlled using state. Bind inputs to state variables using the <code>value</code> and <code>onChange</code> props. You can also use libraries like Formik or React Hook Form to manage forms efficiently.</p>"
+  },
+  {
+    "id": 8,
+    "title": "Routing with React Router",
+    "date": "2025-04-26",
+    "content": "<p>React Router allows for declarative routing in your app. Use <code>&lt;BrowserRouter&gt;</code>, <code>&lt;Routes&gt;</code>, and <code>&lt;Route&gt;</code> components to define your app structure.</p>"
+  },
+  {
+    "id": 9,
+    "title": "Styling in React with Tailwind CSS",
+    "date": "2025-04-27",
+    "content": "<p>Tailwind CSS is a utility-first CSS framework that works great with React. Install Tailwind, configure your project, and use classes directly in your JSX to style elements efficiently and consistently.</p>"
+  },
+  {
+    "id": 10,
+    "title": "Fetching Data with useEffect",
+    "date": "2025-04-28",
+    "content": "<p>To fetch data in React, use <code>useEffect</code> with an empty dependency array to run once on mount. Use <code>fetch</code> or <code>axios</code> to get data, and update state with <code>useState</code>.</p>"
+  },
+  {
+    "id": 11,
+    "title": "Lifting State Up in React",
+    "date": "2025-04-29",
+    "content": "<p>When multiple components need to share state, lift the state up to their common ancestor and pass it down via props. This helps maintain a single source of truth in your component hierarchy.</p>"
+  },
+  {
+    "id": 12,
+    "title": "Handling Errors in React",
+    "date": "2025-04-30",
+    "content": "<p>Use error boundaries to catch errors in components. Functional components can also handle local errors using try-catch blocks and conditional rendering to show fallback UIs.</p>"
+  },
+  {
+    "id": 13,
+    "title": "Optimizing React Performance",
+    "date": "2025-05-01",
+    "content": "<p>Improve performance using memoization (<code>React.memo</code>, <code>useMemo</code>, <code>useCallback</code>), lazy loading, and minimizing unnecessary re-renders. Use React DevTools for profiling.</p>"
+  },
+  {
+    "id": 14,
+    "title": "State Management with Context API",
+    "date": "2025-05-02",
+    "content": "<p>The Context API allows you to avoid prop drilling by providing global state to components. Wrap your app with a context provider and consume values using <code>useContext</code>.</p>"
+  },
+  {
+    "id": 15,
+    "title": "Publishing a React Library",
+    "date": "2025-05-03",
+    "content": "<p>If you've built reusable components, consider packaging them as a library. Use tools like Rollup or Vite, configure your <code>package.json</code>, and publish on npm for others to use.</p>"
+  }
+]
