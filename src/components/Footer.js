@@ -1,8 +1,10 @@
+import React from 'react';
+import './Footer.css';
+
 export default function Footer() {
-    return (
-      <footer className="container">
-        <p>&copy; {new Date().getFullYear()} DevConnect Lite</p>
-      </footer>
-    );
-  }
-  
+  return (
+    <footer className="footer">
+      <p>© {new Date().getFullYear()} DevConnect. All rights reserved.</p>
+    </footer>
+  );
+}

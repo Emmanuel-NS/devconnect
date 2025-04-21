@@ -24,9 +24,16 @@ nav, footer { padding: 1rem; background: var(--card-bg); }
   border-radius: 8px;
 }
 button { cursor: pointer; }
-
+/* make the app fill the screen and push footer to bottom */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 
 .App-logo {
@@ -62,4 +69,13 @@ button { cursor: pointer; }
   to {
     transform: rotate(360deg);
   }
+}
+.dev-page {
+  padding: 80px 2rem 2rem; /* top space for fixed nav */
+  flex: 1;
+}
+.dev-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
 }

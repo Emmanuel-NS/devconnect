@@ -1,14 +1,15 @@
-import { NavLink } from "react-router-dom";
-import DarkModeToggle from "./DarkModeToggle";
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import './Navbar.css';
 
 export default function Navbar() {
   return (
-    <nav>
-      <NavLink to="/" end>Home</NavLink> |{" "}
-      <NavLink to="/developers">Developers</NavLink> |{" "}
-      <NavLink to="/blog">Blog</NavLink> |{" "}
-      <NavLink to="/about">About</NavLink>
-      <span style={{ float: "right" }}><DarkModeToggle /></span>
+    <nav className="navbar">
+      <div className="navbar-logo">DevConnect</div>
+      <ul className="navbar-links">
+        <li><NavLink to="/" end>Home</NavLink></li>
+        <li><NavLink to="/developers">Developers</NavLink></li>
+      </ul>
     </nav>
   );
 }
