@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/devconnect/static/css/main.73451a6a.css",
+    "main.js": "/devconnect/static/js/main.288b6d91.js",
+    "index.html": "/devconnect/index.html",
+    "main.73451a6a.css.map": "/devconnect/static/css/main.73451a6a.css.map",
+    "main.288b6d91.js.map": "/devconnect/static/js/main.288b6d91.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73451a6a.css",
+    "static/js/main.288b6d91.js"
+  ]
+}
